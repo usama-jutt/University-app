@@ -1,0 +1,17 @@
+@import "materialize";
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 10 auto;
+}
+//If you are accessing a class then use .(dot)
+//If you are accessing an Id then use #(hash)
+.sign-up-form
+{
+  padding-top: 30px
+}
